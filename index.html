@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>CodeClub Convert Money</title>
+</head>
+
+<body>
+
+    <div class="conteiner">
+        <header>
+            <h1>CodeClub Convert Money</h1>
+        </header>
+        <main>
+
+            <label>Converter <b>de</b>
+                <select>
+                    <option>
+                        R$ Brasileiro
+                    </option>
+                </select>
+            </label>
+
+            <label>Converter <b>para</b>
+                <select id="select-currency">
+                    <option>US$ Dólar americano</option>
+                    <option>€ Euro</option>
+                </select>
+            </label>
+
+            <label>Valor
+                <input id="input-convert" placeholder="R$ 10.0000.000">
+            </label>
+            <button id="convert-Button" type="button">Converter</button>
+
+            <section>
+
+                <div class="section-container">
+                    <img src="./assets/brasil 2.svg" alt="Bandeira Brasil">
+                    <p class="section-name">Real</p>
+                    <p class="section-name-bold" id="realValueText"></p>
+                </div>
+
+                <img class="arrow" src="./assets/arrow.svg" alt="Seta">
+
+                <div class="section-container">
+                    <img src="./assets/estados-unidos (1) 1.svg" alt="Bandeira Americana" id="currency-img">
+                    <p class="section-name" id="section-name">Dolar</p>
+                    <p class="section-name-bold" id="dolarValueText"></p>
+                </div>
+
+            </section>
+        </main>
+    </div>
+
+</body>
+<script src="./scripts.js"></script>
+
+</html>

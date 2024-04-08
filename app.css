@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Inter&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background: #E5E5E5;
+}
+
+.conteiner{
+    width: 375px;
+    background: #f4f4f4;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+
+}
+header {
+    width: 23.438rem;
+    height: 4.125rem;
+    background: #1B83E2;
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 1.438rem;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.125rem;
+    text-align: center;
+    padding-top: 1.25rem;
+}
+
+main{
+    padding: 24px;
+}
+
+label{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+
+select{
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    margin-top: 6px;
+    margin-bottom: 23px;
+}
+
+input{
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    display: block;
+    width: 100%;
+    outline: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    margin-bottom: 23px;
+}
+
+button{
+    background: #1B83E2;
+    font-weight: 700;
+    border-radius: 25px;
+    height: 48px; 
+    width: 100%;
+    border: none;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 36px;
+}
+
+button:hover{
+    background: #045daf;
+}
+
+button:active{
+    background: #003261;
+}
+
+section{
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+}
+
+.section-container{
+    text-align: center;
+    padding: 10px;
+}
+
+.section-name{
+    color: #777777;
+    font-size: 14px;
+    line-height: 18px;
+
+}
+
+.section-name-bold{
+    color: #1B83E2;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 18px;
+}
+
+.arrow{
+
+    margin: 15px auto;
+    display: block;
+}
